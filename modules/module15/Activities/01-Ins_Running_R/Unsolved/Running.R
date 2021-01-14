@@ -1,5 +1,5 @@
 # Install the tidyverse package
-
+install.packages("tidyverse")
 
 # The assignmnet operator `<-` used to store values into variables
 
