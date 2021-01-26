@@ -1,0 +1,8 @@
+library('tidyverse')
+students <- read.csv(file = 'Resources/students.csv')
+head(students)
+unique_schools <- c(unique(students[,'school_name']))
+number_schools = length(unique(students[,'school_name']))
+print(number_schools)
+number_students = length(unique(students[,'student_name']))
+print(number_students)
