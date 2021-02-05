@@ -49,7 +49,6 @@ var cities = [{
 }
 ];
 
-<<<<<<< HEAD
 cities.forEach(city => L.marker(city.location)
     .bindPopup(`<h1>${city.name}</h1> <b></b> <h3>${city.city_info}</h3> <p>Hello</p>`)
     .addTo(myMap));
@@ -65,12 +64,6 @@ var stores = [{
 }
 ];
 
-stores.forEach(store => L.marker(store.location)
-    .bindPopup(`<h1>${store.name}</h1> <b></b> <h3>${store.store_type}</h3> <p>Hello</p>`)
-];
-
-=======
->>>>>>> origin
 cities.forEach(city=> L.marker(city.location)
     .bindPopup(`<h1>${city.name}</h1> <b></b> <h3>${city.city_info}</h3> <p>Hello</p>`)
     .addTo(myMap));
