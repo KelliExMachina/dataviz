@@ -1,0 +1,31 @@
+1607297090543	geckodriver	INFO	Listening on 127.0.0.1:51740
+1607297091564	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bh/bb6z35tn1852fm36z0tyymy00000gn/T/rust_mozprofileTCGZPg"
+1607297091996	geckodriver	INFO	Listening on 127.0.0.1:51765
+1607297093008	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/bh/bb6z35tn1852fm36z0tyymy00000gn/T/rust_mozprofilems4T86"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607297095101	Marionette	INFO	Listening on port 51756
+1607297095730	Marionette	INFO	Listening on port 51780
+1607297095808	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 235}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 235}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+JavaScript error: resource://devtools/server/actors/highlighters/utils/markup.js, line 141: TypeError: window.document.documentElement is null
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:566:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("state is null", "resource://devtools/client/inspector/shared/highlighters-overlay.js", 1134))
+console.error: (new TypeError("state is null", "resource://devtools/client/inspector/shared/highlighters-overlay.js", 1134))
+console.error: (new TypeError("state is null", "resource://devtools/client/inspector/shared/highlighters-overlay.js", 1134))
+console.error: (new TypeError("state is null", "resource://devtools/client/inspector/shared/highlighters-overlay.js", 1134))
+console.error: (new TypeError("state is null", "resource://devtools/client/inspector/shared/highlighters-overlay.js", 1134))
+console.error: (new TypeError("state is null", "resource://devtools/client/inspector/shared/highlighters-overlay.js", 1134))
+console.error: (new TypeError("state is null", "resource://devtools/client/inspector/shared/highlighters-overlay.js", 1134))
+console.error: (new TypeError("state is null", "resource://devtools/client/inspector/shared/highlighters-overlay.js", 1134))
+console.error: (new TypeError("state is null", "resource://devtools/client/inspector/shared/highlighters-overlay.js", 1134))
+1607305448498	Marionette	INFO	Stopped listening on port 51780
+1607305538799	Marionette	INFO	Stopped listening on port 51756
